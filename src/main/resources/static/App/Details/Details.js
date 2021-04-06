@@ -247,7 +247,7 @@ export default class Details extends React.Component {
                         </p>
                     </div>
                     <p>
-                        <button onClick={this.openNewForm}>New User</button>
+                        <button onClick={this.openNewForm} id='new_user'>New User</button>
                     </p>
                 </div>
                 )}    
@@ -267,7 +267,7 @@ export default class Details extends React.Component {
                     <br />
                     <input type='date' id='new_date_of_birth' />
                 </p>
-                <button onClick={this.addNew}>Add User</button>     
+                <button onClick={this.addNew} id='add_user'>Add User</button>     
             </div>
             )}
             {this.state.openManage && (

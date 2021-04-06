@@ -74,14 +74,14 @@ export default class Login extends React.Component {
                         
                         <form style = {{ marginBottom: '1rem' }} onSubmit={this.tryLogin}>
                             <p>
-                                Имя:
-                                <input type="text" value={this.state.userName} onChange={this.handleChangeName}/>
+                                Name:
+                                <input type="text" id='name' value={this.state.userName} onChange={this.handleChangeName}/>
                             </p>
                             <p>
-                                Пароль:
-                                <input type="password" value={this.state.userPassword} onChange={this.handleChangePassword}/>
+                                Password:
+                                <input type="password" id='password' value={this.state.userPassword} onChange={this.handleChangePassword}/>
                             </p>
-                            <button type='submit'>Login</button>
+                            <button type='submit' id='login'>Login</button>
                             
                         </form>
                     </div>
