@@ -1,0 +1,31 @@
+{
+  "name": "login_react",
+  "version": "1.0.0",
+  "description": "loginpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -d",
+    "dev": "webpack-dev-server --content-base app/"
+  },
+  "author": "1gor",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "requirejs": "^2.3.6",
+    "rest": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react-frame-component": "^0.6.6",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.11.5"
+  }
+}

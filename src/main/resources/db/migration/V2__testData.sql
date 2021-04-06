@@ -1,0 +1,2 @@
+insert into users(id, name, password, is_admin, email, birthday, is_online) values ('1', 'admin', 'admin', '1', '1@1.ru', '2021-01-01 00:00:00', '0');
+insert into users(id, name, password, is_admin, email, birthday, is_online) values ('2', 'test', '123', '0', '2@1.ru', '2021-01-02 00:00:00', '0');
