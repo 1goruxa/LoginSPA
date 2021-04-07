@@ -17,7 +17,7 @@ public class SeleniumTest {
     @BeforeMethod
     public void openPage() {
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("window-size=1200x600");
         System.setProperty("webdriver.chrome.driver", "D:\\JavaKotlinProjects\\ChromeDriver\\chromedriver89.exe");
         driver = new ChromeDriver(options);
