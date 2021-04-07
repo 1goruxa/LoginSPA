@@ -104,6 +104,7 @@ export default class Details extends React.Component {
         .then(data => {
         if (data){
             alert("User updated")
+            
         }
         else{
             alert("User not updated: " + data.error)
