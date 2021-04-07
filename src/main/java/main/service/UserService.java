@@ -51,8 +51,8 @@ public class UserService {
         newUserResponse.setResult(false);
         if (newUser.getStatus().equals(Roles.ADMIN.getRole())){
             //Введенные реквизиты пользователя уникальны
-            if(userRepository.findByName(newUser.getName()).isEmpty()
-                        && userRepository.findByEmail(newUser.getEmail()).isEmpty()){
+            if(!userRepository.findByName(newUser.getName()).isPresent()
+                        && !userRepository.findByEmail(newUser.getEmail()).isPresent()){
                 //Проверка пароля
                 if (newUser.getPassword().length() > 3 && newUser.getName().length() != 0
                                                         && newUser.getEmail().length() != 0) {

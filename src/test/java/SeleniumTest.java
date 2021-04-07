@@ -1,4 +1,4 @@
-import jdk.jfr.Description;
+//import jdk.jfr.Description;
 import main.Test.WaitForPageLoad;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +24,7 @@ public class SeleniumTest {
     }
 
     @Title("Creating new user")
-    @Description("trying to create new user")
+    //@Description("trying to create new user")
     @org.testng.annotations.Test
     public void testLoginPage() throws InterruptedException {
         driver.get("http://localhost:8080");
