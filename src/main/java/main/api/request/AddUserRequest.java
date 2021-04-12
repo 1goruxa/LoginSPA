@@ -9,6 +9,7 @@ public class AddUserRequest {
     private String status;
     private String password;
 
+
     public String getPassword() {
         return password;
     }
