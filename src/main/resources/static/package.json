@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "loginpage",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack -d",
