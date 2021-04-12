@@ -149,7 +149,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>main.ain</mainClass>
+                            <mainClass>main.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
